@@ -189,7 +189,7 @@ const ProfileSettings = () => {
                 </Typography>
               )}
             </Box>
-            <Box 
+            {/* <Box 
               sx={{ 
                 borderRadius: '8px', 
                 mb: 0.5,
@@ -210,8 +210,8 @@ const ProfileSettings = () => {
                   Edit Profile
                 </Typography>
               )}
-            </Box>
-            <Box 
+            </Box> */}
+            {/* <Box 
               sx={{ 
                 borderRadius: '8px', 
                 '&:hover': { bgcolor: '#f5f8fa' },
@@ -231,7 +231,7 @@ const ProfileSettings = () => {
                   Account Settings
                 </Typography>
               )}
-            </Box>
+            </Box> */}
           </Box>
         </Box>
 
