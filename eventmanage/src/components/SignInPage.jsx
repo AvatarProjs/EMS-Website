@@ -123,8 +123,8 @@ const SignInPage = () => {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="Sign In" />
                 <Tab label="Sign Up" />
+                <Tab label="Sign In" />
               </Tabs>
             </Paper>
 

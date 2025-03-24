@@ -132,8 +132,8 @@ const SignupPage = () => {
                 indicatorColor="primary"
                 textColor="primary"
               >
-                <Tab label="Sign In" />
                 <Tab label="Sign Up" />
+                <Tab label="Sign In" />
               </Tabs>
             </Paper>
 
@@ -229,7 +229,7 @@ const SignupPage = () => {
                     onClick={handleSignIn}
                     sx={{ color: '#1D9BF0' }}
                   >
-                    Sign up
+                    Sign In
                   </Link>
                 </Typography>
               </Box>

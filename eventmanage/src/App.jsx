@@ -5,7 +5,10 @@ import ResetPasswordPage from './components/ResetPass';
 import { ThemeProvider, CssBaseline } from '@mui/material';
 import SignupPage from './components/SignupPage';
 import SignInPage from './components/SignInPage';
-import EventDashboard from './components/EventDashboard';
+import EventDashboard from './components/EventDashboard/EventDashboard';
+import EditEvent from './components/EventDashboard/EventManagement';
+import BookingsTickets from './components/EventDashboard/MyBookingsTickets'; // Renamed for clarity
+import ProfileSettings from './components/ProfileSettings';
 import theme from './theme';
 
 function App() {
@@ -18,7 +21,10 @@ function App() {
           <Route path="/signin" element={<SignInPage />} />
           <Route path="/forgot-password" element={<ForgotPasswordPage />} />
           <Route path="/reset-password" element={<ResetPasswordPage />} />
-          <Route path="/dashboard" element={<EventDashboard />} />
+          <Route path="/dashboard/home" element={<EventDashboard />} />
+          <Route path="/dashboard/edit-event" element={<EditEvent />} />
+          <Route path="/dashboard/bookings" element={<BookingsTickets />} />
+          <Route path="/profile" element={<ProfileSettings />} />
           <Route path="*" element={<Navigate to="/signin" replace />} />
         </Routes>
       </BrowserRouter>
