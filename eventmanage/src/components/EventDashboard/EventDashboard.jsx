@@ -167,6 +167,9 @@ const EventDashboard = () => {
             </IconButton>
           </Tooltip>
           <Tooltip title="Profile">
+            <Link to="/profile">
+                                                                    
+                                                                      
             <IconButton
               sx={{
                 bgcolor: "#f4f9ff",
@@ -175,6 +178,7 @@ const EventDashboard = () => {
             >
               <PersonIcon />
             </IconButton>
+            </Link>
           </Tooltip>
         </Box>
       </Box>

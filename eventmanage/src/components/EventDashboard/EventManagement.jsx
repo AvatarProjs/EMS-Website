@@ -218,6 +218,11 @@ const EventManagement = () => {
               </IconButton>
             </Tooltip>
             <Tooltip title="Profile">
+              <Link to="/profile">
+                                                                            
+              
+                                                        
+                                  
               <IconButton
                 sx={{
                   bgcolor: "#f4f9ff",
@@ -226,6 +231,7 @@ const EventManagement = () => {
               >
                 <PersonIcon />
               </IconButton>
+              </Link>
             </Tooltip>
           </Box>
         </Box>

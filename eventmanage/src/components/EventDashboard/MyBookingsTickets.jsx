@@ -144,12 +144,18 @@ const MyBookingsTickets = () => {
           }}>
             <CalendarIcon />
           </IconButton>
+          <Link to="/profile">
+                                                              
+           
+                                                                                    
+                                                              
           <IconButton sx={{ 
             bgcolor: '#f4f9ff', 
             '&:hover': { bgcolor: '#e6f2ff' }
           }}>
             <PersonIcon />
           </IconButton>
+          </Link>
         </Box>
       </Box>
 
