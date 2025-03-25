@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { 
   Box, 
@@ -205,22 +206,56 @@ const SignupPage = () => {
                 }}
                 sx={{ mb: 3 }}
               />
-              <Button
+
+
+            {/* <Button
                 type="submit"
                 fullWidth
                 variant="contained"
-                sx={{ 
-                  mt: 2, 
-                  mb: 2, 
+                sx={{
                   py: 1.5,
-                  backgroundColor: '#1D9BF0',
-                  '&:hover': {
-                    backgroundColor: '#0E87D3',
-                  }
+                  backgroundColor: "#1D9BF0",
+                  "&:hover": {
+                    backgroundColor: "#0E87D3",
+                  },
                 }}
               >
                 Create account
-              </Button>
+              </Button> */} 
+
+
+
+
+
+             <Button
+      type="submit"
+      fullWidth
+      variant="contained"
+      sx={{ 
+        mt: 2, 
+        mb: 2, 
+        py: 1.5,
+        backgroundColor: '#1D9BF0',
+        color: 'white', // Ensures text is white
+        '&:hover': {
+          backgroundColor: '#0E87D3',
+        }
+      }}
+      onClick={() => navigate("/signin")} // Navigate to "/signin"
+      
+    >
+      Create account
+    </Button>
+
+
+
+
+
+
+
+
+
+
               <Box sx={{ textAlign: 'center', mt: 2 }}>
                 <Typography variant="body2" color="text.secondary">
                   Already have an account?{' '}

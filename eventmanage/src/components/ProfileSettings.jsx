@@ -488,6 +488,7 @@ const ProfileSettings = () => {
               >
                 Delete Account
               </Button>
+              
               <Button 
                 variant="contained" 
                 color="primary"
@@ -502,6 +503,7 @@ const ProfileSettings = () => {
                   }
                 }}
               >
+                
                 Logout
               </Button>
             </Box>

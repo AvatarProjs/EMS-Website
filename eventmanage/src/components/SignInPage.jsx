@@ -207,7 +207,11 @@ const SignInPage = () => {
                 </Link>
               </Box>
 
-              <Button
+
+
+
+
+              {/* <Button
                 type="submit"
                 fullWidth
                 variant="contained"
@@ -220,7 +224,33 @@ const SignInPage = () => {
                 }}
               >
                 Sign in
-              </Button>
+              </Button> */}
+
+
+
+                <Button
+                    type="submit"
+                    fullWidth
+                    variant="contained"
+                    sx={{ 
+                      mt: 2, 
+                      mb: 2, 
+                      py: 1.5,
+                      backgroundColor: '#1D9BF0',
+                      color: 'white', // Ensures text is white
+                      '&:hover': {
+                        backgroundColor: '#0E87D3',
+                      }
+                    }}
+                    onClick={() => navigate("/dashboard/home")} // Navigate to "dashboard"
+                    
+                  >
+                    Sign In
+                  </Button>
+
+
+
+
 
               <Box sx={{ textAlign: "center", mt: 3 }}>
                 <Typography variant="body2" color="text.secondary">
